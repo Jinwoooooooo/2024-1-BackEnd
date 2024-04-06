@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "SF Pro", "SF Pro KR";
+    src: url(src/fonts/SF-Pro.ttf);
+}
+@font-face {
+    font-family: "SF Pro KR";
+    src: url(src/fonts/AppleSDGothicNeoM.ttf);
+}
+@font-face {
+    font-family: "SF Pro B KR";
+    src: url(src/fonts/AppleSDGothicNeoEB.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-size: 12px;
+    font-family: SF Pro, SF Pro KR;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: #f5f5f7;
+    overflow-y: scroll;
+    height: 150vh;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    padding: 0px 22px;
+    font-size: 12px;
+    flex-wrap: nowrap;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    letter-spacing: 0.5px;
+    width: auto;
+}
+@media (max-width: 1920px) {
+    .header {
+        width: 1718px;
+    }
+}
+@media (min-width: 2560px) {
+    .header {
+        width: 2358px;
+    }
+}
+
+
+.logo {
+    display: flex;
+    color: black;
+    padding-left: 20px;
+}
+.fa-apple {
+    font-size: 18px;
+    margin-top: -2.5px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 5px 20px;
+    margin: 0px 8px;
+}
+
+.menu li {
+    padding: 5px 0px;
+}
+
+.icons {
+    display: flex;
+    color: #f5f5f7;
+    list-style: none;
+    padding-left: 0;
+}
+.icons li > a {
+    font-size: 14px;
+}
+
+.hamburg {
+    display: none;
+    font-size: 17px;
+}
+
+@media (max-width: 1920px) {
+    .shop-contanier {
+        width: 1600px;
+    }
+}
+@media (min-width: 2560px) {
+    .shop-contanier {
+        width: 2240px;
+    }
+}
+.shop-contanier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 260px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.shop-header {
+    width: 570px;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 57px;
+}
+.shop-subheader {
+    color: #6e6e73;
+}
+.shop-side {
+    font-size: 14px;
+}
+
+.card-contanier {
+    display: inline-flex;
+    padding-bottom: 40px;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+.card {
+    border-radius: 18px;
+    box-sizing: border-box;
+    height: 148px;
+    width: 136px;
+    overflow: hidden;
+    padding: 18px 8px 16px;
+    margin-inline-end: 10px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+}
+.card img {
+    width: 120px;
+    height: 78px;
+    margin-bottom: 10px;
+}
+
+.mainheader {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+.secondaryheader {
+    color: #6e6e73;
+}
+
+.main-contanier {
+    display: flex;
+    overflow-x: scroll;
+}
+.main-card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px #00000014;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    position: relative;
+}
+.card-content-info {
+    padding: 30px;
+    width: 20rem;
+    position: absolute;
+    width: 400px;
+}
+
+.main-card img {
+    width: 400px;
+    height: 500px;
+    border-radius: 18px;
+}
+
+.card-content-info-h3 {
+    font-family: SF Pro KR;
+    font-weight: 100;
+    margin-top: -5px;
+}
+.card-content-info-div1 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.card-content-info-div2 {
+    font-family: SF Pro KR;
+    font-size: 17px;
+    font-weight: 100;
+    color: #1d1d1f;
+}
