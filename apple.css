@@ -20,7 +20,7 @@ body {
     margin-right: 140px;
     background-color: #f5f5f7;
     overflow-y: scroll;
-    height: 150vh;
+    height: 200vh;
 }
 
 a {
@@ -157,6 +157,10 @@ header {
 .main-contanier {
     display: flex;
     overflow-x: scroll;
+    margin-bottom: 100px;
+}
+.sub-contanier {
+    display: flex;
 }
 .main-card {
     background-color: #fff;
@@ -166,6 +170,22 @@ header {
     height: 500px;
     margin-right: 20px;
     position: relative;
+}
+.sub-card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px #00000014;
+    width: 480px;
+    height: 500px;
+    margin-right: 20px;
+    position: relative;
+}
+.sub-card-img {
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px #00000014;
+    margin-right: 20px;
 }
 .card-content-info {
     padding: 30px;
