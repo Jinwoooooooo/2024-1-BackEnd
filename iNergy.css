@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(/src/fonts/NotoSansKR-Medium.ttf);
+}
+@font-face {
+    font-family: Noto Sans KR2;
+    src: url(/src/fonts/NotoSansKR-Regular.ttf);
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #00000000;
+    height: 150vh;
+}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header-li {
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #0000001a;
+    font-size: 12px;
+    font-family: Noto Sans KR;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-contanier {
+    background-color: #0000000a;
+    display: flex;
+    justify-content: center;
+}
+.list-ul {
+    display: flex;
+    list-style: none;
+}
+.list-li {
+    padding: 20px;
+    font-size: 13px;
+    font-family: Noto Sans KR;
+}
+
+.searching {
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+    align-self: center;
+    margin-left: 60px;
+}
+.search { /* 이미지 */
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.wishlist { /* 이미지 */
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+.cart { /* 이미지 */
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.main-paragraph {
+    display: flex;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    padding: 20px;
+    margin-right: 500px;
+    justify-content:center;
+    letter-spacing: 0.2px;
+}
+.main-contanier {
+    background-color: #0000000a;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.main-item {
+    font-family: Noto Sans KR;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-price {
+    font-family: Noto Sans KR2;
+    font-size: 14px;
+}
+.main-info {
+    align-self: center;
+}
+.main-item-img {
+    width: 500px;
+    height: 280px;
+    align-self: center;
+}
+.sub-paragraph {
+    display: flex;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    padding: 20px;
+    justify-content:center;
+    letter-spacing: 0.2px;
+}
+
+.sub-contanier {
+    display: flex;
+    justify-content: center;
+}
+.sub-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    padding: 40px;
+    font-family: Noto Sans KR;
+    background-color: #0000000a;
+    border-radius: 30px;
+}
+.sub-item-img {
+    width: 150px;
+}
+.sub-itemName {
+    font-size: 20px;
+    line-height: 0px;
+}
+.sub-item-info {
+    font-family: Noto Sans KR2;
+    font-size: 13px;
+    line-height: 40px;
+    
+}
+.sub-price {
+    font-family: Noto Sans KR;
+    font-size: 13px;
+}
