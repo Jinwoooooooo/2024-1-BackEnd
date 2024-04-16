@@ -19,6 +19,10 @@ body {
     margin-top: 20px;
     margin-right: 10px;
 }
+.header-li a {
+    text-decoration: none;
+    color: black;
+}
 .header-li {
     padding: 0px 20px 0px 20px;
     border-right: 1px solid #0000001a;
