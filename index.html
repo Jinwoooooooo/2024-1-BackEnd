@@ -2,131 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Clone</title>
-    <link rel="stylesheet" href="apple.css">
-    <script src="https://kit.fontawesome.com/6cca727381.js" crossorigin="anonymous"></script>
-
+    <title>i-Nergy</title>
+    <link rel="stylesheet" href="iNergy.css">
 </head>
 <body>
-    <div class="header">
     <header>
-        <ul class="menu">
-            <li class=logo><a class="fab fa-apple"></a></li>
-            <li><a href="">스토어</a><li>
-            <li><a href="">Mac</a><li>
-            <li><a href="">iPad</a><li>
-            <li><a href="">iPhone</a><li>
-            <li><a href="">Watch</a><li>
-            <li><a href="">Airpods</a><li>
-            <li><a href="">TV 및 홈</a><li>
-            <li><a href="">엔터테인먼트</a><li>
-            <li><a href="">액세서리</a><li>
-            <li><a href="">고객지원</a><li>
-            <li class=icons><a href=""><i class="fas fa-search"></i></a></li>
-            <li class=icons><a href=""><i class="fas fa-shopping-bag"></i></a></li>
+        <ul class="header-ul">
+            <li class="header-li"><a href="index.html"><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px;">iNergy</span></a></li>
+            <li class="header-li">마이페이지</li>
+            <li class="header-li">주문 조회</li>
+            <li class="header-li">최근 본 상품</li>
+            <li class="header-li"><a href="login.html">로그인</a></li>
+            <li class="header-li" style="border-style: none;"><a href="board.html">고객센터</a></li>
+        </ul>
     </header>
+    <div class="logo"><h1>i-Nergy</h1></div>
+    <div class="list-contanier">
+        <ul class="list-ul">
+            <li class="list-li">New & Featured</li>
+            <li class="list-li">iPhone</li>
+            <li class="list-li">Watch</li>
+            <li class="list-li">AirPods</li>
+        </ul>
+        <div class="searching"><img src="Image/search.png" class="search"></div>
+        <img src="Image/wishlist.png" class="wishlist">
+        <img src="Image/cart.png" class="cart">
     </div>
-    
-    <div class="shop-contanier">
-        <div class="shop-header">스토어.<span class="shop-subheader">좋아하는 Apple 제품을 구입하는 가장 좋은 방법.</span></div>
-        <div class="shop-side">
-            <div>쇼핑 지원이 필요하다면?</div>
-            <div>Apple Store를 방문하세요</div>
-        </div>
-    </div>
-
-    <div class="card-contanier">
-        <div class="card"><img src="Image/Mac.png">Mac</div>
-        <div class="card"><img src="Image/iPhone.png">iPhone</div>
-        <div class="card"><img src="Image/iPad.png">iPad</div>
-        <div class="card"><img src="Image/Apple Watch.png">Apple Watch</div>
-        <div class="card"><img src="Image/AirPods.png">AirPods</div>
-        <div class="card"><img src="Image/AirTag.png">AirTag</div>
-        <div class="card"><img src="Image/Apple TV.png">Apple TV 4K</div>
-        <div class="card"><img src="Image/Accessories.png">액세서리</div>
-    </div>
-
-    <div class="mainheader">최신 제품.<span class="secondaryheader"> 따끈따끈한 신제품 이야기.</span></div>
+    <p class="main-paragraph">새로운 상품<span style="color:#6e6e73;">을 구경해 보세요!</span></p>
     <div class="main-contanier">
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #6e6e73;">MACBOOK AIR</h3>
-                <div class="card-content-info-div1" style="color: #1d1d1f;">어디서나 종횡무진할 수 있도록.</div>
-                <div class="card-content-info-div2" style="color: #1d1d1f;">₩1,390,000부터</div>
-            </div>
-            <img src="Image/Macbook-Air.png">
+        <div class="main-info">
+            <p class="main-item">iPhone 15</p>
+            <p class="main-price">₩ 1,250,000부터</p>
         </div>
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #fff;">IPHONE 15 PRO</h3>
-                <div class="card-content-info-div1" style="color: #fff;">티타늄</div>
-                <div class="card-content-info-div2" style="color: #fff;">₩1,550,000부터</div>
-            </div>
-            <img src="Image/iPhone 15 Pro.png">
-        </div>
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #fff;">APPLE WATCH SERIES 9</h3>
-                <div class="card-content-info-div1" style="color: #fff;">보다 똑똑. 보다 또렷. 보다 강력.</div>
-                <div class="card-content-info-div2" style="color: #fff;">₩599,000부터</div>
-            </div>
-            <img src="Image/AppleWatchSeries9.png">
-        </div>
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #6e6e73;">IPAD</h3>
-                <div class="card-content-info-div1" style="color: #1d1d1f;">쓰다. 그리다. 빠져들다.</div>
-                <div class="card-content-info-div2" style="color: #1d1d1f;">₩679,000부터</div>
-            </div>
-            <img src="Image/iPad3.png">
-        </div>
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #6e6e73;">IPHONE 15</h3>
-                <div class="card-content-info-div1" style="color: #1d1d1f;">새로움 물씬</div>
-                <div class="card-content-info-div2" style="color: #1d1d1f;">₩1,250,000부터</div>
-            </div>
-            <img src="Image/iPhone15.png">
-        </div>
-        <div class="main-card">
-            <div class="card-content-info">
-                <h3 class="card-content-info-h3" style="color: #6e6e73;">MACBOOK PRO</h3>
-                <div class="card-content-info-div1" style="color: #1d1d1f;">비교 불가 성능. 시선 강탈 매력.</div>
-                <div class="card-content-info-div2" style="color: #1d1d1f;">₩2,390,000부터</div>
-            </div>
-            <img src="Image/MacbookPro.png">
-        </div>
+        <img src="Image/iPhone.png" class="main-item-img">
     </div>
-    <div class="mainheader">도움의 손길.<span class="secondaryheader"> 언제든, 당신에게 맞는 방식으로.</span></div>
+    <p class="sub-paragraph">당신에게 딱 맞는 추천 제품</p>
     <div class="sub-contanier">
-        <div class="sub-card">
-            <div class="sub-card-content-info">
-                <h3 class="sub-card-content-info-h3" style="color: #6e6e73;">APPLE 스페셜리스트</h3>
-                <div class="sub-card-content-info-div1" style="color: #1d1d1f;">스페셜리스트와 함께하는 일대일 쇼핑. 온라인에서도 매장에서도.</div>
+       <div class="sub-item">
+            <img class="sub-item-img" src="Image/iPad.png">
+            <div class="sub-info">
+                <p class="sub-itemName">iPad</p>
+                <p class="sub-item-info">M2</p>
+                <p class="sub-price">₩ 1,250,000부터</p>
             </div>
-            <img class="sub-card-img" src="Image/specialist-help.png">
-        </div>
-        <div class="sub-card">
-            <div class="sub-card-content-info">
-                <h3 class="sub-card-content-info-h3" style="color: #6e6e73;">TODAY AT APPLE</h3>
-                <div class="sub-card-content-info-div1" style="color: #1d1d1f;">Apple Store의 무료 세션에 참여해 보세요.</div>
-                <div class="sub-card-content-info-div2" style="color: #1d1d1f;">최신 기능과 더불어 Apple 기기를 더욱 심도 있게 활용하는 법을 알아보세요.</div>
+       </div> 
+       <div class="sub-item">
+            <img class="sub-item-img" src="Image/Apple Watch.png">
+            <div class="sub-info">
+                <p class="sub-itemName">Apple Watch</p>
+                <p class="sub-item-info">SE</p>
+                <p class="sub-price">₩ 329,000부터</p>
             </div>
-            <img class="sub-card-img" src="Image/TAA.png">
-        </div>
-        <div>
-            <div class="sub-half-card-content-info">
-                <div class="sub-half-card-content-info-div1" style="color: #1d1d1f;"><p class="sub-half-card-content-info-p">무료 온라인 개인 맞춤 세션에서 새 기기를 설정하는 방법을 배워보세요.</p></div>
+       </div> 
+       <div class="sub-item">
+            <img class="sub-item-img" src="Image/AirPods.png">
+            <div class="sub-info">
+                <p class="sub-itemName">AirPods</p>
+                <p class="sub-item-info">Pro</p>
+                <p class="sub-price">₩ 300,000부터</p>
             </div>
-            <img class="sub-half-card-img" src="Image/apps.png">
-
-            <div class="sub-half-card-content-info">
-                <div class="sub-half-card-content-info-div1" style="color: #1d1d1f;"><p class="sub-half-card-content-info-p2">Genius Bar에서 직접 전문가의 도움을 받을 수 있습니다.</p></div>
-            </div>
-            <img class="sub-half-card-img" src="Image/genius.png">
-        </div>
+       </div>
     </div>
+    <div class="footer">
+       <div class="footer-info">
+           <p class="footer-first-p">APPLE WATCH</p>
+           <p class="footer-second-p">SERIES 9</p>
+       </div>
+        <img class="footer-img" src="Image/footer.jpg">
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2024 iNergy. ALL rights reserved.</p>
+            <p>상호 : iNergy <span style="color: #00000050;">|</span> 대표자명 : 정진우</p>
+            <p>연락처 : 010-1313-2424 <span style="color: #00000050;">|</span> 팩스 : 001-2525-3232 <span style="color: #00000050;">|</span> 이메일 : iNergy.gmail.com</p>
+            <p>주소 : (47230) 부산광역시 부산진구 양지로 54 </p>
+        </div>
+    </footer>
 </body>
 </html>
