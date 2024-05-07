@@ -28,6 +28,7 @@
     font-family: Noto Sans KR;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     margin-top: 150px;
     font-size: 30px;
