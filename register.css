@@ -24,7 +24,6 @@
     font-size: 12px;
     font-family: Noto Sans KR;
 }
-
 .main-contanier {
     font-family: Noto Sans KR;
     display: flex;
@@ -34,32 +33,57 @@
     margin-top: 100px;
     color: #1d1d1f;
 }
-
-.plsLogin {
-    margin: 20px 0px 20px 0px;
-    font-size: 35px;
+.first-name {
+    font-family: Noto Sans KR;
+    padding: 15px;
+    margin: 10px;
+    width: 235px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 7px;
 }
-.plsLogin2 {
-    margin-top: 50px;
-    font-size: 20px;
+.second-name {
+    font-family: Noto Sans KR;
+    padding: 15px;
+    margin: 10px;
+    width: 235px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 7px;
 }
-
-.inputBox {
+.emailpwd {
+    font-family: Noto Sans KR;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
-
-.userInfo {
+.email {
     font-family: Noto Sans KR;
-    border-radius: 7px;
-    border: 1px solid grey;
-    width: 435px;
-    height: 50px;
-    padding-left: 15px;
+    padding: 15px;
     margin: 10px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 7px;
 }
-
+.pwd {
+    font-family: Noto Sans KR;
+    padding: 15px;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 7px;
+}
+.checkpwd {
+    font-family: Noto Sans KR;
+    padding: 15px;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 7px;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+}
 .btn {
     font-family: Noto Sans KR;
     font-size: 16px;
@@ -81,7 +105,6 @@
     transition: 0.7s;
 }
 
-
 footer {
     display: flex;
     justify-content: center;
@@ -98,18 +121,3 @@ footer {
     font-size: 12px;
     padding: 40px;
 }
-
-.register {
-    font-family: Noto Sans KR;
-    padding: 50px;
-    color: #646464;
-}
-
-.regilink {
-    text-decoration: none;
-    color: #3a89d8 ;
-}
-.regilink:hover {
-    text-decoration: underline;
-}
-
