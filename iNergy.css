@@ -1,10 +1,10 @@
 @font-face {
     font-family: Noto Sans KR;
-    src: url(/src/fonts/NotoSansKR-Medium.ttf);
+    src: url(src/fonts/NotoSansKR-Medium.ttf);
 }
 @font-face {
     font-family: Noto Sans KR2;
-    src: url(/src/fonts/NotoSansKR-Regular.ttf);
+    src: url(src/fonts/NotoSansKR-Regular.ttf);
 }
 
 body {
