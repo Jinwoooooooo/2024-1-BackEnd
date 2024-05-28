@@ -6,6 +6,9 @@
     font-family: Noto Sans KR2;
     src: url(src/fonts/NotoSansKR-Regular.ttf);
 }
+body {
+    margin: 0 auto;
+}
 
 .header-ul {
     display: flex;
