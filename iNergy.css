@@ -93,7 +93,7 @@ body {
     letter-spacing: 0.2px;
 }
 .main-contanier {
-    background-color: #0000000a;
+    background-color: #fafafc;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -131,11 +131,13 @@ body {
 .sub-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     margin-right: 20px;
-    padding: 40px;
+    width: 400px;
+    padding: 40px 0px 40px 0px;
     font-family: Noto Sans KR;
-    background-color: #0000000a;
+    background-color: #fafafc;
     border-radius: 30px;
 }
 .sub-item-img {

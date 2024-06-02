@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="register.css">
+    <title>iNergy</title>
+    <link rel="stylesheet" href="mypage.css">
 </head>
 <body>
     <header>
         <ul class="header-ul">
             <li class="header-li"><a href="index.html"><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px;">iNergy</span></a></li>
-            <li class="header-li">마이페이지</li>
+            <li class="header-li" onclick="alert('로그인 후 이용해 주세요.')">마이페이지</li>
             <li class="header-li">주문 조회</li>
             <li class="header-li">최근 본 상품</li>
             <li class="header-li"><a href="login.html">로그인</a></li>
             <li class="header-li" style="border-style: none;"><a href="board.html">고객센터</a></li>
         </ul>
     </header>
-    <div class="main-contanier">
-        <h1><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 37px;">iNergy</span> ID 생성</h1>
-        <p>하나의 iNergy ID로 모든 iNergy 서비스를 이용할 수 있습니다.</p>
-        <div class="form-container">
-            <form>
-                <div class="inputbox">
-                    <input class="name" name="name" type="text" placeholder="이름" maxlength="10" required>
-                    <input class="id" name="id" type="text" placeholder="아이디" maxlength="20" required>
-                    <input class="pwd" name="pwd" type="password" placeholder="암호" maxlength="20" required>
-                    <input class="tel" name="tel" type="text" placeholder="연락처" maxlength="20" required>
-                </div>
-                <div class="submit">
-                    <input class="btn" type="submit" name="submit" value="→">
-                </div>
-            </form>
+    <div class="accountContanier">
+        <div class="accountBox">
+            <div class="account">
+                <p>계정</p>
+            </div>
+            <div class="sayHello">
+                <p>.. 님, 안녕하세요.</p>
+            </div>
+        </div>
+    </div>
+    <div class="option">
+        <div class="row1">
+            <div class="item1">
+                <img src="Image/account.png">
+                <p>내 정보</p>
+            </div>
+            <div class="item2">
+                <img src="Image/edit.png">
+                <p>내 정보 수정</p>
+            </div>
         </div>
     </div>
     <footer>
